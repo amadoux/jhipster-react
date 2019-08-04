@@ -43,6 +43,18 @@ public class CacheConfiguration {
             createCache(cm, io.github.jhipster.react.domain.User.class.getName());
             createCache(cm, io.github.jhipster.react.domain.Authority.class.getName());
             createCache(cm, io.github.jhipster.react.domain.User.class.getName() + ".authorities");
+            createCache(cm, io.github.jhipster.react.domain.Region.class.getName());
+            createCache(cm, io.github.jhipster.react.domain.Country.class.getName());
+            createCache(cm, io.github.jhipster.react.domain.Location.class.getName());
+            createCache(cm, io.github.jhipster.react.domain.Department.class.getName());
+            createCache(cm, io.github.jhipster.react.domain.Department.class.getName() + ".employees");
+            createCache(cm, io.github.jhipster.react.domain.Task.class.getName());
+            createCache(cm, io.github.jhipster.react.domain.Task.class.getName() + ".jobs");
+            createCache(cm, io.github.jhipster.react.domain.Employee.class.getName());
+            createCache(cm, io.github.jhipster.react.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, io.github.jhipster.react.domain.Job.class.getName());
+            createCache(cm, io.github.jhipster.react.domain.Job.class.getName() + ".tasks");
+            createCache(cm, io.github.jhipster.react.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
