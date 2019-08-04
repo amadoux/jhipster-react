@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipsterReact",
+    "packageName": "io.github.jhipster.react",
+    "packageFolder": "io/github/jhipster/react",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.2.0",
+    "jwtSecretKey": "NDI2ODkwZGY2Njk2MzRiMWJiNGEwNjllYWJiZTkwOWEyMTMxZjZjNDY4ZGJhNjhiNGI0MzRjOTNlZGY0NmVjZDZiZGNkZTczZmNiZGRiYjI5MDMzOTdlYmFhYjZlY2NlOWVkYzA2NjVmNjQ0MjFjYmFkMDYzZTE5NTdlNTE4MjA=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "amadoux",
+  "repository-name": "jhipster-react"
+}
